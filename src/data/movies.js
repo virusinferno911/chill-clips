@@ -6,7 +6,7 @@ export const movies = [
     banner: "https://image.tmdb.org/t/p/original/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
     poster: "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
     trailerKey: "EXeTwQWrcwY", featured: true,
-    fullMovieLink: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+    fullMovieLink: "https://www.w3schools.com/html/mov_bbb.mp4"
   },
   {
     id: 2, title: "Avengers: Endgame", genre: "Action", year: 2019, rating: 8.4,
@@ -14,7 +14,7 @@ export const movies = [
     banner: "https://image.tmdb.org/t/p/original/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
     poster: "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
     trailerKey: "TcMBFSGVi1c", featured: true,
-    fullMovieLink: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+    fullMovieLink: "https://www.w3schools.com/html/mov_bbb.mp4"
   },
   {
     id: 3, title: "John Wick", genre: "Action", year: 2014, rating: 7.4,
@@ -22,7 +22,7 @@ export const movies = [
     banner: "https://image.tmdb.org/t/p/original/fZPSd91yGE9fCcCe6OoQr6E3Bev.jpg",
     poster: "https://image.tmdb.org/t/p/w500/fZPSd91yGE9fCcCe6OoQr6E3Bev.jpg",
     trailerKey: "C0BMx-qxsP4",
-    fullMovieLink: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+    fullMovieLink: "https://www.w3schools.com/html/mov_bbb.mp4"
   },
   {
     id: 4, title: "Top Gun: Maverick", genre: "Action", year: 2022, rating: 8.3,
@@ -30,7 +30,7 @@ export const movies = [
     banner: "https://image.tmdb.org/t/p/original/odJ4hx6g6vBt4lBWKFD1tI8WS4x.jpg",
     poster: "https://image.tmdb.org/t/p/w500/62HCnUTziyWcpDaBO2i1DX17ljH.jpg",
     trailerKey: "qSqVVswa420",
-    fullMovieLink: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4"
+    fullMovieLink: "https://www.w3schools.com/html/mov_bbb.mp4"
   },
   {
     id: 5, title: "Black Panther", genre: "Action", year: 2018, rating: 7.3,
@@ -38,7 +38,7 @@ export const movies = [
     banner: "https://image.tmdb.org/t/p/original/uxzzxijgPIY7slzFvMotPv8wjKA.jpg",
     poster: "https://image.tmdb.org/t/p/w500/uxzzxijgPIY7slzFvMotPv8wjKA.jpg",
     trailerKey: "xjDjIWPwcPU",
-    fullMovieLink: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+    fullMovieLink: "https://www.w3schools.com/html/mov_bbb.mp4"
   },
   {
     id: 6, title: "Mission: Impossible", genre: "Action", year: 2023, rating: 7.8,
@@ -46,7 +46,7 @@ export const movies = [
     banner: "https://image.tmdb.org/t/p/original/NNxYkU70HPurnNCSiCjYAmacwm.jpg",
     poster: "https://image.tmdb.org/t/p/w500/NNxYkU70HPurnNCSiCjYAmacwm.jpg",
     trailerKey: "avz-8F_Lnm0",
-    fullMovieLink: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
+    fullMovieLink: "https://www.w3schools.com/html/mov_bbb.mp4"
   },
   // ── SCI-FI ────────────────────────────────────────────────────────────────
   {
@@ -55,7 +55,7 @@ export const movies = [
     banner: "https://image.tmdb.org/t/p/original/xJHokMbljvjADYdit5fK5VQsXEG.jpg",
     poster: "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
     trailerKey: "zSWdZVtXT7E", featured: true,
-    fullMovieLink: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+    fullMovieLink: "https://www.w3schools.com/html/mov_bbb.mp4"
   },
   {
     id: 8, title: "Inception", genre: "Sci-Fi", year: 2010, rating: 8.8,
@@ -63,7 +63,7 @@ export const movies = [
     banner: "https://image.tmdb.org/t/p/original/edv5CZvWj09upOsy2Y6IwDhK8bt.jpg",
     poster: "https://image.tmdb.org/t/p/w500/edv5CZvWj09upOsy2Y6IwDhK8bt.jpg",
     trailerKey: "YoHD9XEInc0", featured: true,
-    fullMovieLink: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+    fullMovieLink: "https://www.w3schools.com/html/mov_bbb.mp4"
   },
   {
     id: 9, title: "Dune", genre: "Sci-Fi", year: 2021, rating: 8.0,
@@ -71,7 +71,7 @@ export const movies = [
     banner: "https://image.tmdb.org/t/p/original/jYEW5xZkZk2WTrdbMGAPFuBqbDc.jpg",
     poster: "https://image.tmdb.org/t/p/w500/d5NXSklXo0qyIYkgV94XAgMIckC.jpg",
     trailerKey: "n9xhJrPXop4",
-    fullMovieLink: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+    fullMovieLink: "https://www.w3schools.com/html/mov_bbb.mp4"
   },
   {
     id: 10, title: "The Matrix", genre: "Sci-Fi", year: 1999, rating: 8.7,
@@ -79,7 +79,7 @@ export const movies = [
     banner: "https://image.tmdb.org/t/p/original/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
     poster: "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
     trailerKey: "vKQi3bBA1y8",
-    fullMovieLink: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+    fullMovieLink: "https://www.w3schools.com/html/mov_bbb.mp4"
   },
   {
     id: 11, title: "Avatar", genre: "Sci-Fi", year: 2009, rating: 7.9,
@@ -87,7 +87,7 @@ export const movies = [
     banner: "https://image.tmdb.org/t/p/original/jRXYjXNq0Cs2TcJjLkki24MLp7u.jpg",
     poster: "https://image.tmdb.org/t/p/w500/6EiRUJpuoeQPghrs3YNktfnqOVh.jpg",
     trailerKey: "5PSNL1qE6VY",
-    fullMovieLink: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4"
+    fullMovieLink: "https://www.w3schools.com/html/mov_bbb.mp4"
   },
   // ── DRAMA ─────────────────────────────────────────────────────────────────
   {
@@ -96,7 +96,7 @@ export const movies = [
     banner: "https://image.tmdb.org/t/p/original/ptpr0kGAckfQkJeJIt8st5dglvd.jpg",
     poster: "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
     trailerKey: "bK6ldnjE3Y0", featured: true,
-    fullMovieLink: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+    fullMovieLink: "https://www.w3schools.com/html/mov_bbb.mp4"
   },
   {
     id: 13, title: "The Godfather", genre: "Drama", year: 1972, rating: 9.2,
@@ -104,7 +104,7 @@ export const movies = [
     banner: "https://image.tmdb.org/t/p/original/tmU7GeKVybMWFButWEGl2M4GeiP.jpg",
     poster: "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsLebwazzvzoI.jpg",
     trailerKey: "sY1S34973zA",
-    fullMovieLink: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+    fullMovieLink: "https://www.w3schools.com/html/mov_bbb.mp4"
   },
   {
     id: 14, title: "Parasite", genre: "Drama", year: 2019, rating: 8.5,
@@ -112,7 +112,7 @@ export const movies = [
     banner: "https://image.tmdb.org/t/p/original/TU9NIjwzjoKPwQHoHshkFcQUCG.jpg",
     poster: "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
     trailerKey: "5xH0HfJHsaY",
-    fullMovieLink: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
+    fullMovieLink: "https://www.w3schools.com/html/mov_bbb.mp4"
   },
   {
     id: 15, title: "Forrest Gump", genre: "Drama", year: 1994, rating: 8.8,
@@ -120,7 +120,7 @@ export const movies = [
     banner: "https://image.tmdb.org/t/p/original/qdIMHd4sEfJSckfVJfKQvisL02a.jpg",
     poster: "https://image.tmdb.org/t/p/w500/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg",
     trailerKey: "bLvqoHBptjg",
-    fullMovieLink: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4"
+    fullMovieLink: "https://www.w3schools.com/html/mov_bbb.mp4"
   },
   {
     id: 16, title: "The Shawshank Redemption", genre: "Drama", year: 1994, rating: 9.3,
@@ -128,7 +128,7 @@ export const movies = [
     banner: "https://image.tmdb.org/t/p/original/kXfqcdQKsToO0OUXHcrrNCHDBzO.jpg",
     poster: "https://image.tmdb.org/t/p/w500/lyQBXzOQSuE59IsHyhrp0qIiPAz.jpg",
     trailerKey: "PLl99DlL6b4",
-    fullMovieLink: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+    fullMovieLink: "https://www.w3schools.com/html/mov_bbb.mp4"
   },
   // ── THRILLER ──────────────────────────────────────────────────────────────
   {
@@ -137,7 +137,7 @@ export const movies = [
     banner: "https://image.tmdb.org/t/p/original/gpsHDPGMNkEIxLvQKLVRKrmTjgA.jpg",
     poster: "https://image.tmdb.org/t/p/w500/gpsHDPGMNkEIxLvQKLVRKrmTjgA.jpg",
     trailerKey: "IFGjPJEAH44",
-    fullMovieLink: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+    fullMovieLink: "https://www.w3schools.com/html/mov_bbb.mp4"
   },
   {
     id: 18, title: "Se7en", genre: "Thriller", year: 1995, rating: 8.6,
@@ -145,7 +145,7 @@ export const movies = [
     banner: "https://image.tmdb.org/t/p/original/6yoghtyTpznpBik8EngEmJskVUO.jpg",
     poster: "https://image.tmdb.org/t/p/w500/6yoghtyTpznpBik8EngEmJskVUO.jpg",
     trailerKey: "znmZoVkCjpI",
-    fullMovieLink: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+    fullMovieLink: "https://www.w3schools.com/html/mov_bbb.mp4"
   },
   {
     id: 19, title: "Knives Out", genre: "Thriller", year: 2019, rating: 7.9,
@@ -153,7 +153,7 @@ export const movies = [
     banner: "https://image.tmdb.org/t/p/original/pThyQovXQrws2Y4foX33gFYwc0E.jpg",
     poster: "https://image.tmdb.org/t/p/w500/pThyQovXQrws2Y4foX33gFYwc0E.jpg",
     trailerKey: "qGqiHJTsRkQ",
-    fullMovieLink: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+    fullMovieLink: "https://www.w3schools.com/html/mov_bbb.mp4"
   },
   // ── COMEDY ────────────────────────────────────────────────────────────────
   {
@@ -162,7 +162,7 @@ export const movies = [
     banner: "https://image.tmdb.org/t/p/original/nX5XotM9yprCKarRH4fzOq1FWNX.jpg",
     poster: "https://image.tmdb.org/t/p/w500/nX5XotM9yprCKarRH4fzOq1FWNX.jpg",
     trailerKey: "1Fg0bFVk2Bs",
-    fullMovieLink: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
+    fullMovieLink: "https://www.w3schools.com/html/mov_bbb.mp4"
   },
   {
     id: 21, title: "Superbad", genre: "Comedy", year: 2007, rating: 7.6,
@@ -170,7 +170,7 @@ export const movies = [
     banner: "https://image.tmdb.org/t/p/original/uw8mUEFtbiPZpSXSdDCFpGJeEFD.jpg",
     poster: "https://image.tmdb.org/t/p/w500/uw8mUEFtbiPZpSXSdDCFpGJeEFD.jpg",
     trailerKey: "4eOcQSrfQNg",
-    fullMovieLink: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4"
+    fullMovieLink: "https://www.w3schools.com/html/mov_bbb.mp4"
   },
   // ── ANIMATION ─────────────────────────────────────────────────────────────
   {
@@ -179,7 +179,7 @@ export const movies = [
     banner: "https://image.tmdb.org/t/p/original/AvnuCfaLJSaqPHjgCb6fEe8HZFM.jpg",
     poster: "https://image.tmdb.org/t/p/w500/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
     trailerKey: "g4Hbz2jLxvQ",
-    fullMovieLink: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+    fullMovieLink: "https://www.w3schools.com/html/mov_bbb.mp4"
   },
   {
     id: 23, title: "The Lion King", genre: "Animation", year: 2019, rating: 6.9,
@@ -187,7 +187,7 @@ export const movies = [
     banner: "https://image.tmdb.org/t/p/original/1TUg5pO1VZ4B0Q1amk3OlXvlpXV.jpg",
     poster: "https://image.tmdb.org/t/p/w500/2bXbqYdUdNVa8VIWXVfclP2ICtT.jpg",
     trailerKey: "7TavVZMewpY",
-    fullMovieLink: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+    fullMovieLink: "https://www.w3schools.com/html/mov_bbb.mp4"
   },
   {
     id: 24, title: "Spirited Away", genre: "Animation", year: 2001, rating: 9.3,
@@ -195,7 +195,7 @@ export const movies = [
     banner: "https://image.tmdb.org/t/p/original/AbRYRKpfS4lAMdqHoHlKFZWQPjp.jpg",
     poster: "https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
     trailerKey: "ByXuk9QqQkk",
-    fullMovieLink: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+    fullMovieLink: "https://www.w3schools.com/html/mov_bbb.mp4"
   },
 ]
 
@@ -207,7 +207,7 @@ export const series = [
     banner: "https://image.tmdb.org/t/p/original/ggFHVNu6YYI5L9pCfOacjizRGt.jpg",
     poster: "https://image.tmdb.org/t/p/w500/ggFHVNu6YYI5L9pCfOacjizRGt.jpg",
     trailerKey: "HhesaQXLuRY", featured: true, isSeries: true,
-    fullMovieLink: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+    fullMovieLink: "https://www.w3schools.com/html/mov_bbb.mp4"
   },
   {
     id: 's2', title: "Stranger Things", genre: "Sci-Fi", year: 2016, rating: 8.7, seasons: 4,
@@ -215,7 +215,7 @@ export const series = [
     banner: "https://image.tmdb.org/t/p/original/56v2KjBlU4XaOv9rVYEQypROD7P.jpg",
     poster: "https://image.tmdb.org/t/p/w500/49WJfeN0moxb9IPfGn8AIqMGskD.jpg",
     trailerKey: "b9EkMc79ZSU", featured: true, isSeries: true,
-    fullMovieLink: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+    fullMovieLink: "https://www.w3schools.com/html/mov_bbb.mp4"
   },
   {
     id: 's3', title: "The Last of Us", genre: "Action", year: 2023, rating: 8.8, seasons: 2,
@@ -223,7 +223,7 @@ export const series = [
     banner: "https://image.tmdb.org/t/p/original/uDgy6hyPd7oHnkBBiTwbQfhyJFx.jpg",
     poster: "https://image.tmdb.org/t/p/w500/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg",
     trailerKey: "uLtkt8BonwM", isSeries: true, seasons: 2,
-    fullMovieLink: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+    fullMovieLink: "https://www.w3schools.com/html/mov_bbb.mp4"
   },
   {
     id: 's4', title: "Game of Thrones", genre: "Drama", year: 2011, rating: 9.2, seasons: 8,
@@ -231,7 +231,7 @@ export const series = [
     banner: "https://image.tmdb.org/t/p/original/suopoADq0k8YZr4dQXcU6pToj6s.jpg",
     poster: "https://image.tmdb.org/t/p/w500/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg",
     trailerKey: "bjqn6yvLYYY", isSeries: true,
-    fullMovieLink: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+    fullMovieLink: "https://www.w3schools.com/html/mov_bbb.mp4"
   },
   {
     id: 's5', title: "Wednesday", genre: "Comedy", year: 2022, rating: 8.1, seasons: 2,
@@ -239,7 +239,7 @@ export const series = [
     banner: "https://image.tmdb.org/t/p/original/9PFonBhy4cQy7Jz20NpMygczOkv.jpg",
     poster: "https://image.tmdb.org/t/p/w500/9PFonBhy4cQy7Jz20NpMygczOkv.jpg",
     trailerKey: "Di310WS93z0", isSeries: true,
-    fullMovieLink: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4"
+    fullMovieLink: "https://www.w3schools.com/html/mov_bbb.mp4"
   },
   {
     id: 's6', title: "Squid Game", genre: "Thriller", year: 2021, rating: 8.0, seasons: 2,
@@ -247,7 +247,7 @@ export const series = [
     banner: "https://image.tmdb.org/t/p/original/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg",
     poster: "https://image.tmdb.org/t/p/w500/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg",
     trailerKey: "oqxAJKy0ii4", isSeries: true,
-    fullMovieLink: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
+    fullMovieLink: "https://www.w3schools.com/html/mov_bbb.mp4"
   },
   {
     id: 's7', title: "The Mandalorian", genre: "Action", year: 2019, rating: 8.8, seasons: 3,
@@ -255,7 +255,7 @@ export const series = [
     banner: "https://image.tmdb.org/t/p/original/sWgBv7LV2PRoQgkxwlibdGXKz1S.jpg",
     poster: "https://image.tmdb.org/t/p/w500/sWgBv7LV2PRoQgkxwlibdGXKz1S.jpg",
     trailerKey: "aOC8E8z_ifw", isSeries: true,
-    fullMovieLink: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+    fullMovieLink: "https://www.w3schools.com/html/mov_bbb.mp4"
   },
   {
     id: 's8', title: "Ozark", genre: "Thriller", year: 2017, rating: 8.4, seasons: 4,
@@ -263,7 +263,7 @@ export const series = [
     banner: "https://image.tmdb.org/t/p/original/pCGyPVrI9Fzc6El7h0v2t3S5OIF.jpg",
     poster: "https://image.tmdb.org/t/p/w500/pCGyPVrI9Fzc6El7h0v2t3S5OIF.jpg",
     trailerKey: "5hAXVqrljbs", isSeries: true,
-    fullMovieLink: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+    fullMovieLink: "https://www.w3schools.com/html/mov_bbb.mp4"
   },
 ]
 
