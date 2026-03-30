@@ -14,9 +14,7 @@
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
-
 html { scroll-behavior: smooth; }
-
 body {
   background: var(--bg);
   color: var(--text);
@@ -28,7 +26,6 @@ body {
 ::-webkit-scrollbar-track { background: var(--surface); }
 ::-webkit-scrollbar-thumb { background: var(--teal-dark); border-radius: 3px; }
 
-/* Animations */
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(24px); }
   to   { opacity: 1; transform: translateY(0); }
@@ -41,6 +38,10 @@ body {
   from { opacity: 0; transform: translateY(-12px); }
   to   { opacity: 1; transform: translateY(0); }
 }
+@keyframes slideRight {
+  from { opacity: 0; transform: translateX(-100%); }
+  to   { opacity: 1; transform: translateX(0); }
+}
 @keyframes modalIn {
   from { opacity: 0; transform: scale(0.93) translateY(16px); }
   to   { opacity: 1; transform: scale(1) translateY(0); }
@@ -49,26 +50,10 @@ body {
   0%   { background-position: 200% 0; }
   100% { background-position: -200% 0; }
 }
-@keyframes pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.5; }
-}
-@keyframes spin {
-  to { transform: rotate(360deg); }
-}
+@keyframes spin { to { transform: rotate(360deg); } }
 @keyframes toastIn {
   from { opacity: 0; transform: translateX(-50%) translateY(20px); }
   to   { opacity: 1; transform: translateX(-50%) translateY(0); }
-}
-@keyframes heroFade {
-  0%   { opacity: 0; }
-  10%  { opacity: 1; }
-  85%  { opacity: 1; }
-  100% { opacity: 0; }
-}
-@keyframes countUp {
-  from { opacity: 0; transform: scale(0.8); }
-  to   { opacity: 1; transform: scale(1); }
 }
 @keyframes glowPulse {
   0%, 100% { box-shadow: 0 0 20px var(--teal-glow); }
@@ -79,6 +64,7 @@ body {
 .fade-in    { animation: fadeIn 0.4s ease both; }
 .slide-down { animation: slideDown 0.3s ease both; }
 .modal-in   { animation: modalIn 0.3s ease both; }
+.mobile-menu-in { animation: slideRight 0.28s cubic-bezier(0.4,0,0.2,1) both; }
 
 .shimmer-card {
   background: linear-gradient(90deg, var(--card) 25%, var(--surface) 50%, var(--card) 75%);
@@ -97,6 +83,27 @@ body {
   display: inline-block;
 }
 
-/* Row scroll hide */
 .row-track { scrollbar-width: none; }
 .row-track::-webkit-scrollbar { display: none; }
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 16px;
+  padding: 0 48px;
+}
+
+@media (max-width: 900px) {
+  .movie-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    padding: 0 20px;
+    gap: 12px;
+  }
+}
+@media (max-width: 480px) {
+  .movie-grid {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 12px;
+    gap: 10px;
+  }
+}

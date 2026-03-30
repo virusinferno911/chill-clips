@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react'
 import MovieCard from './MovieCard'
 
-export default function MovieRow({ title, movies, onPlayTrailer, onWatchFull }) {
+export default function MovieRow({ title, movies, onPlayTrailer, onWatchFull, onToggleList, myList = [] }) {
   const trackRef    = useRef(null)
   const [canLeft,  setCanLeft]  = useState(false)
   const [canRight, setCanRight] = useState(true)
@@ -38,26 +38,20 @@ export default function MovieRow({ title, movies, onPlayTrailer, onWatchFull }) 
 
   return (
     <div style={{ marginBottom:44 }}>
-      {/* Header */}
       <div style={{
-        display:'flex', alignItems:'center',
-        justifyContent:'space-between',
-        padding:'0 48px', marginBottom:14,
+        display:'flex', alignItems:'center', justifyContent:'space-between',
+        padding:'0 clamp(16px,4vw,48px)', marginBottom:14,
       }}>
         <div style={{
           fontFamily:"'Bebas Neue',sans-serif",
           fontSize:22, letterSpacing:2, color:'white',
         }}>{title}</div>
-        <div style={{
-          fontSize:12, color:'var(--teal)', cursor:'pointer',
-          opacity:0.8, transition:'opacity .2s',
-        }}
-        onMouseEnter={e => e.currentTarget.style.opacity=1}
-        onMouseLeave={e => e.currentTarget.style.opacity=0.8}
+        <div style={{ fontSize:12, color:'var(--teal)', cursor:'pointer', opacity:0.8 }}
+          onMouseEnter={e => e.currentTarget.style.opacity=1}
+          onMouseLeave={e => e.currentTarget.style.opacity=0.8}
         >See all ›</div>
       </div>
 
-      {/* Track with arrows */}
       <div style={{ position:'relative' }}>
         <ArrowBtn dir={-1} />
         <div
@@ -70,7 +64,7 @@ export default function MovieRow({ title, movies, onPlayTrailer, onWatchFull }) 
           }}
           style={{
             display:'flex', gap:12,
-            padding:'8px 48px 16px',
+            padding:'8px clamp(16px,4vw,48px) 16px',
             overflowX:'auto', scrollBehavior:'smooth',
           }}
         >
@@ -80,6 +74,8 @@ export default function MovieRow({ title, movies, onPlayTrailer, onWatchFull }) 
               movie={m}
               onPlayTrailer={onPlayTrailer}
               onWatchFull={onWatchFull}
+              onToggleList={onToggleList}
+              inList={myList.some(l => l.id === m.id)}
             />
           ))}
         </div>
