@@ -1,14 +1,17 @@
 :root {
-  --teal: #0d9488;
-  --teal-light: #14b8a6;
-  --teal-dark: #0f766e;
-  --teal-glow: rgba(13,148,136,0.3);
-  --bg: #080c0c;
-  --surface: #0f1a1a;
-  --card: #111f1f;
-  --border: #1a2e2e;
+  /* Replaced Teal with Gold & Grey */
+  --teal: #d4af37;           /* Main Gold */
+  --teal-light: #f1d592;     /* Light Gold */
+  --teal-dark: #aa8c2c;      /* Dark Gold */
+  --teal-glow: rgba(212, 175, 55, 0.3); /* Gold Glow */
+  
+  --bg: #121212;             /* Deep Charcoal Background */
+  --surface: #1c1c1c;        /* Slate Grey Panels */
+  --card: #252525;           /* Lighter Grey Cards */
+  --border: #333333;         /* Subtle Grey Borders */
+  
   --text: #e2e8f0;
-  --muted: #64748b;
+  --muted: #999999;
   --white: #ffffff;
   --error: #ef4444;
 }
