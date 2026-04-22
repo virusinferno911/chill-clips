@@ -2,6 +2,9 @@ import { createContext, useContext, useEffect, useState } from 'react';
 
 const AuthContext = createContext(null);
 
+// 🚨 THIS IS THE MAGIC LINE: It grabs your Render URL from Vercel!
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || '';
+
 export function AuthProvider({ children }) {
   const [user, setUser]       = useState(null);
   const [loading, setLoading] = useState(true);
@@ -16,7 +19,8 @@ export function AuthProvider({ children }) {
       }
 
       try {
-        const response = await fetch('/api/v1/auth/me', {
+        // Updated URL
+        const response = await fetch(`${API_BASE_URL}/api/v1/auth/me`, {
           headers: { 'Authorization': `Bearer ${token}` }
         });
 
@@ -39,7 +43,8 @@ export function AuthProvider({ children }) {
 
   // 2. The Sign Up Logic
   const signUp = async (email, password) => {
-    const response = await fetch('/api/v1/auth/signup', {
+    // Updated URL
+    const response = await fetch(`${API_BASE_URL}/api/v1/auth/signup`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email, password })
@@ -55,7 +60,8 @@ export function AuthProvider({ children }) {
 
   // 3. The Sign In Logic
   const signIn = async (email, password) => {
-    const response = await fetch('/api/v1/auth/signin', {
+    // Updated URL
+    const response = await fetch(`${API_BASE_URL}/api/v1/auth/signin`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email, password })
